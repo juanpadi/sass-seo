@@ -1,0 +1,388 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/*------header-----*/
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 9vh;
+  background-color: #1f2024;
+  padding-left: 2vw;
+  height: 6em;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.nav .ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+.nav .ul a {
+  text-decoration: none;
+  color: lightgrey;
+  font-size: 1.25vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  font-family: "Overpass", sans-serif;
+  font-size: 2vw;
+}
+
+.nav .ul a:hover {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  border-radius: 0.3em;
+  background-color: #444444;
+  color: #f18416;
+}
+
+.nav .lista {
+  float: right;
+}
+
+.nav img {
+  max-width: 100%;
+  height: 80px;
+  max-height: 100%;
+  width: 12vw;
+  padding-top: -10em;
+}
+
+/*----------------HASTA ACA HEADER-------------------*/
+.main {
+  height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  /* Teléfonos */
+  /*-----------------------------------*/
+  /* ---------------(nosotros)------------*/
+  /* ----------------Footer------------*/
+  /* equipos */
+  /* unner */
+  /*  */
+}
+
+.main .video {
+  background-size: 50%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: -10;
+  /* min-width: 100%;
+        min-height: 100%; */
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.main .crazyTigers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main .crazyTigers h1 {
+  font-family: "Bebas Neue", cursive;
+  color: #f18416;
+  font-size: 9vw;
+  opacity: 70%;
+  text-shadow: 0px 3px 5px #000;
+}
+
+.main .crazyTigers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main .div1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #444444;
+}
+
+.main .div1 ul {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  list-style: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main .footer {
+  background-color: #1f2024;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1em;
+  border-top: #f18416 0.1em solid;
+}
+
+.main .footer .contenedorFooter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main .footer .contenedorFooter .col1 {
+  width: 25vw;
+  padding-left: 3em;
+  padding-right: 3em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main .footer .contenedorFooter .col1 p {
+  text-align: initial;
+  color: lightgray;
+}
+
+.main .footer .contenedorFooter .col2 {
+  width: 25vw;
+  padding-left: 3em;
+  padding-right: 3em;
+}
+
+.main .footer .contenedorFooter .col3 {
+  width: 25vw;
+  padding-left: 3em;
+  padding-right: 3em;
+}
+
+.main .redes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main .redes a {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.main .redes a img {
+  width: 2.5vw;
+}
+
+.main .container2 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  gap: 0px 0px;
+}
+
+.main .container2 .nav {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 6;
+  grid-area: 2 / 1 / 3 / 7;
+}
+
+.main .header {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 6;
+  grid-area: 1 / 1 / 2 / 7;
+}
+
+.main .encabezado {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 6;
+  grid-area: 1 / 1 / 2 / 7;
+}
+
+.main .imagenes {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 4;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 6;
+  grid-area: 3 / 1 / 7 / 7;
+}
+
+.main .main2 {
+  background-color: #444444;
+}
+
+.main .main2 .tl {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 6;
+  grid-area: 3 / 1 / 4 / 7;
+  font-family: "Bebas Neue";
+  color: #f18416;
+  -webkit-text-decoration: underline 4px;
+          text-decoration: underline 4px;
+  text-align: center;
+  padding-bottom: 0.6em;
+  padding-top: 0.6em;
+  font-size: 2.5vw;
+  -webkit-text-stroke: 1px black;
+}
+
+.main .main2 .tr {
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 6;
+  grid-area: 5 / 1 / 6 / 7;
+  font-family: "Bebas Neue";
+  color: #0c2cfc;
+  -webkit-text-decoration: underline 4px;
+          text-decoration: underline 4px;
+  text-align: center;
+  padding-bottom: 0.6em;
+  padding-top: 0.6em;
+  font-size: 2.5vw;
+  -webkit-text-stroke: 1px black;
+}
+
+.main .main2 .subimg {
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 6;
+  grid-area: 4 / 1 / 5 / 7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 90%;
+  margin: auto;
+  gap: 10px;
+}
+
+.main .main2 .subimg2 {
+  -ms-grid-row: 6;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 6;
+  grid-area: 6 / 1 / 7 / 7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  justify-content: center;
+  width: 90%;
+  margin: auto;
+  gap: 10px;
+  text-align: center;
+}
+
+.main .main2 .team__card {
+  width: 18%;
+  min-width: 225px;
+  text-align: center;
+}
+
+.main .main2 .footer {
+  -ms-grid-row: 7;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 6;
+  grid-area: 7 / 1 / 8 / 7;
+}
+
+.main .team__img {
+  width: 100%;
+}
+
+.main .unner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #444444;
+}
+
+.main .unnerimg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main .tituloFundador {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.g-3 {
+  background-color: #444444;
+}
+
+/*# sourceMappingURL=styles.css.map */
