@@ -5,7 +5,8 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-
+$color-primario: #f18416;
+$color-secundario: #1f2024;
 /*------header-----*/
 .nav {
   display: -webkit-box;
@@ -15,7 +16,7 @@
       -ms-flex-align: center;
           align-items: center;
   height: 9vh;
-  background-color: #1f2024;
+  background-color: $color-secundario;
   padding-left: 2vw;
   height: 6em;
   -webkit-box-pack: justify;
@@ -45,7 +46,7 @@
   transition: all 0.5s;
   border-radius: 0.3em;
   background-color: #444444;
-  color: #f18416;
+  color: $color-primario;
 }
 
 .nav .lista {
@@ -107,7 +108,7 @@
 
 .main .crazyTigers h1 {
   font-family: "Bebas Neue", cursive;
-  color: #f18416;
+  color: $color-primario;
   font-size: 9vw;
   opacity: 70%;
   text-shadow: 0px 3px 5px #000;
@@ -143,7 +144,7 @@
 }
 
 .main .footer {
-  background-color: #1f2024;
+  background-color: $color-secundario;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -155,7 +156,7 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 1em;
-  border-top: #f18416 0.1em solid;
+  border-top: $color-primario 0.1em solid;
 }
 
 .main .footer .contenedorFooter {
